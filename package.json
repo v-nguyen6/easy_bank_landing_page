@@ -1,0 +1,15 @@
+{
+  "name": "easy_bank_landing_page",
+  "version": "1.0.0",
+  "description": "Landing Page for Digital Banking Platform made using HTML, CSS, & JS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}

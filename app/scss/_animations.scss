@@ -1,0 +1,43 @@
+// CSS Animations 
+// - hamburger menu opacity animation
+@keyframes fade-in {
+    from {
+        visibility: hidden;
+    }
+    1% {
+        visibility: visible;
+    }
+    to {
+        visibility: visible;
+        opacity: 1;
+    }
+}
+
+// helper class used to call in the fade-in
+.fade-in {
+    animation: fade-in 200ms ease-in-out forwards;
+}
+
+.has-fade {
+    visibility: hidden;
+}
+
+@keyframes fade-out {
+    from {
+        visibility: visible;
+        opacity: 1;
+    }
+    99% {
+        visibility: visible; // still allow for content under the opacity to be clicked 
+        opacity: 0 ;
+    }
+    to {
+        visibility: hidden;
+        opacity: 0;
+    }
+}
+
+// helper class used to call in the fade-in
+.fade-out {
+    animation: fade-out 200ms ease-in-out forwards;
+}

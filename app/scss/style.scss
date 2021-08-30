@@ -1,0 +1,10 @@
+// Global Sass Imports
+@import 'variables';
+@import 'mixins';
+@import 'animations';
+@import 'globals';
+
+// Individual Component Styling
+@import 'header'; 
+@import 'hero';
+@import 'feature';
